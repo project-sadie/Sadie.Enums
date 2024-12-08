@@ -30,6 +30,8 @@ jobs:
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 9.0.x
 
     - run: dotnet pack --configuration Release --output ${{ env.NuGetDirectory }}
 
@@ -50,6 +52,8 @@ jobs:
 
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
 
       - name: Publish NuGet package
         run: |
