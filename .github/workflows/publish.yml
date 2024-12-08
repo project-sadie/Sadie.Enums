@@ -43,6 +43,7 @@ jobs:
         path: ${{ env.NuGetDirectory }}/*.nupkg
 
   deploy:
+    needs: package
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
