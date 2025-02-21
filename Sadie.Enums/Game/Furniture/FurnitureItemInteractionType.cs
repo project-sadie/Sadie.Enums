@@ -1,4 +1,4 @@
-namespace Sadie.Enums.Game.Furniture,
+namespace Sadie.Enums.Game.Furniture;
 
 public static class FurnitureItemInteractionType
 {
@@ -22,5 +22,5 @@ public static class FurnitureItemInteractionType
         WiredEffectMoveRotateFurniture = "wf_act_move_rotate",
         WiredEffectToggleFurnitureState = "wf_act_toggle_state",
         WiredEffectMoveFurnitureToClosestUser = "wf_act_chase",
-        WiredEffectMuteTriggerer = "wf_act_mute_triggerer"
+        WiredEffectMuteTriggerer = "wf_act_mute_triggerer";
 }
