@@ -24,4 +24,5 @@ public static class FurnitureItemInteractionType
         WiredEffectMoveFurnitureToClosestUser = "wf_act_chase",
         WiredEffectMuteTriggerer = "wf_act_mute_triggerer",
         WiredEffectToggleRandomFurnitureState = "wf_xtra_random";
+        WiredEffectChangeFurnitureDirection = "wf_act_move_to_dir";
 }
