@@ -7,6 +7,7 @@ public enum WiredEffectCode
     ShowMessage = 7,
     TeleportToFurniture = 8,
     MoveFurnitureToClosestUser = 11,
+    ChangeFurnitureDirection = 13,
     KickUser = 19,
     MuteTriggerer = 20,
     BotChangedClothes = 26,
