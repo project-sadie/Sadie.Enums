@@ -1,4 +1,4 @@
-﻿namespace Sadie.Enums.Unsorted;
+﻿namespace Sadie.Enums.Miscellaneous;
 
 public enum ChatBubble
 {

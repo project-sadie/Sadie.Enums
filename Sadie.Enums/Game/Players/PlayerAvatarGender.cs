@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel;
 
-namespace Sadie.Enums.Unsorted;
+namespace Sadie.Enums.Game.Players;
 
-public enum AvatarGender
+public enum PlayerAvatarGender
 {
     [Description("M")]
     Male = 0,
